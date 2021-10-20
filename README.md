@@ -1,4 +1,4 @@
-# Poryecto API REST FULL
+# Project API REST FULL
 
 Basic API for consumption and integration in future projects.
 
@@ -10,4 +10,4 @@ Basic API for consumption and integration in future projects.
 4. Execute `node app.js` in your Shell.
 5. Use postman.
 
-Pproject under construction, thanks you...
+thanks you...
