@@ -1,0 +1,13 @@
+{
+  "name": "apirestnodejs",
+  "version": "1.0.0",
+  "description": "ApiRestFull",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "works": "npm i cors && npm i express && npm i mysql"
+  },
+  "keywords": [],
+  "author": "Varayac",
+  "license": "ISC"
+}
