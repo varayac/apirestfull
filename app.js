@@ -8,9 +8,9 @@ app.use(express.json());
 
 //Establecemos parametros de conexión con la DB
 var conn = mysql.createConnection({
-    host     : 'localhost',
+    host     : '192.168.0.25',
     user     : 'root',
-    password : '',
+    password : 'pass11',
     database : 'articulosdb'
 });
 
