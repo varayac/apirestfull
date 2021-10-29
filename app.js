@@ -1,16 +1,18 @@
 var express = require('express');
 var mysql = require('mysql');
+var cors = require('cors');
 
 var app = express();
 
 // Parsea la informacion recibida en JSON.
 app.use(express.json());
+app.use(cors());
 
-//Establecemos parametros de conexión con la DB
+//Establecemos parametros de conexión con nuestra DB
 var conn = mysql.createConnection({
-    host     : 'localhost',
+    host     : '192.168.0.25',
     user     : 'root',
-    password : '',
+    password : 'pass11',
     database : 'articulosdb'
 });
 
