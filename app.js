@@ -68,7 +68,10 @@ app.post('/api/articulos', (req, res) => {
         if(error){
             throw error;
         }else{
-            res.send(results);
+            //Se reemplaza esta linea para CRUD EN jS
+            Object.assign(data, {id: results.insertId })
+            res.send(data)
+            //res.send(results);
         }
     })
 });
